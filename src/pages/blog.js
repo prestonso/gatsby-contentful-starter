@@ -20,7 +20,6 @@ class BlogIndex extends React.Component {
           </div>
           <div className="wrapper">
             <h2 className="section-headline">Latest articles</h2>
-            <img src="https://user-images.githubusercontent.com/21834/34442516-fb1a1a3c-ecc2-11e7-8fe8-530435f22336.jpg" />
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
